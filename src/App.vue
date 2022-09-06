@@ -1,32 +1,22 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <header-shop/>
     <router-view/>
+    <footer-shop/>
   </div>
 </template>
 
+<script>
+import HeaderShop from "@/components/HeaderShop";
+import HomeShop from "@/views/home/HomeShop";
+import FooterShop from "@/components/FooterShop";
+
+export default {
+  name: 'App',
+  components: {HeaderShop, HomeShop, FooterShop}
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+@import "~@/assets/fonts/homeshop/iconfont.css";
 </style>

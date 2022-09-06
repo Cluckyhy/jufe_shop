@@ -1,0 +1,90 @@
+.register_banner {
+  position: relative;
+  height: 474px;
+  margin: -20px 0 20px 0;
+  background-color: #FD7A72;
+}
+
+.register_banner .register_bg {
+  width: 1200px;
+  margin: 0 260px 0;
+}
+
+.register_banner .register_box {
+  position: absolute;
+  width: 360px;
+  height: 430px;
+  top: 20px;
+  left: 917px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+.register_banner .register_box>h3{
+  text-align: center;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.register_banner .register_box .register_form{
+  width: 320px;
+  margin-top: 20px;
+}
+
+.register_box .register_form form>div{
+  width: 320px;
+  height: 42px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.register_box .register_form form>div>span{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  /*vertical-align: middle;*/
+  text-align: center;
+  line-height: 40px;
+}
+
+.register_box .register_form form>div>input{
+  width: 280px;
+  height: 42px;
+  margin-top: 0;
+  padding: 0 0;
+  /*vertical-align: top;*/
+  box-sizing: border-box;
+  border: none;
+}
+
+.register_box .register_link{
+  width: 320px;
+  height: 20px;
+  font-size: 14px;
+  margin: 20px auto;
+}
+
+.register_box .register_link input{
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+
+.register_box .register_link a{
+  float: right;
+}
+
+.register_box .zc{
+  width: 320px;
+  height: 38px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #0E90D2;
+}
+
+.register_box .zc span{
+  color: white;
+  line-height: 38px;
+  font-size: 16px;
+}

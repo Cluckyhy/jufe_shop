@@ -1,0 +1,89 @@
+.hright {
+  float: left;
+  width: 200px;
+  height: 500px;
+}
+
+.hright .title {
+  margin: 15px 15px;
+  box-sizing: content-box;
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
+}
+
+.hright .login {
+  width: 200px;
+  height: 110px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.hright .login .ltop {
+  width: 100%;
+  height: 60px;
+  margin: 10px 5px 0 5px;
+}
+
+.hright .login .logo {
+  float: left;
+}
+
+.hright .login .msg {
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.hright .login .msg p:nth-child(1) {
+  font-size: 14px;
+}
+
+.hright .login .msg p:nth-child(2) {
+  margin-top: 5px;
+  font-size: 12px;
+  color: orangered;
+}
+
+.hright .login img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.hright .lbtm {
+  width: 100%;
+  margin-left: 5px;
+}
+
+.hright .lbtm button {
+  border: none;
+  width: 90px;
+  height: 25px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(243, 123, 29);
+  margin-left: 5px;
+}
+
+.hright .lbtm button:hover{
+  background-color: chocolate;
+}
+
+.hright .info ul{
+  display: flex;
+  height: 200px;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.hright .info ul li{
+  flex: 1;
+  font-size: 13px;
+}
+
+.hright img{
+  width: 200px;
+  height: 130px;
+}

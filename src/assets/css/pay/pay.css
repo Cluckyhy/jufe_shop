@@ -1,0 +1,314 @@
+.shop_pay {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.shop_pay .pay_address {
+  width: 100%;
+}
+
+.shop_pay .pay_address .cf_tip span:first-child {
+  display: inline-block;
+  width: 84px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.shop_pay .pay_address .cf_tip span:last-child {
+  width: 86px;
+  height: 30px;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 20px;
+  color: white;
+  background-color: #dd514c;
+}
+
+.shop_pay .pay_address .addressbm {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.shop_pay .pay_address .addressbm ul {
+  display: flex;
+}
+
+.shop_pay .pay_address .addressbm ul li {
+  position: relative;
+  width: 255px;
+  height: 150px;
+  margin-left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.shop_pay .pay_address .addressbm ul li:first-child {
+  margin-left: 0;
+  background-image: url("~@/assets/images/peraddressbg.png");
+}
+
+.addressbm ul li p:first-child {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.addressbm ul li p:nth-child(n+2) {
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.addressbm ul li p:last-of-type {
+  float: right;
+  margin-top: 10px;
+}
+
+.addressbm ul li p:nth-child(5) span {
+  cursor: pointer;
+}
+
+.addressbm ul li .edit1{
+  cursor: pointer;
+}
+
+.addressbm ul li .finish{
+  cursor: pointer;
+}
+
+
+.shop_pay .pay_address .addressbm ul li .moren {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 60px;
+  height: 22px;
+  text-align: center;
+  color: white;
+  background-color: #cccccc;
+  font-size: 14px;
+}
+
+.shop_pay .wuliu, .shop_pay .zhifu {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.shop_pay .wuliu h3, .shop_pay .zhifu h3 {
+  font-size: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #cccccc;
+}
+
+.shop_pay .wuliu ul {
+  width: 100%;
+  height: 48px;
+  display: flex;
+}
+
+.shop_pay .zhifu ul {
+  width: 600px;
+  height: 48px;
+  display: flex;
+}
+
+.shop_pay .wuliu ul li, .shop_pay .zhifu ul li {
+  flex: 1;
+  text-align: center;
+  line-height: 48px;
+}
+
+.shop_pay .zhifu ul li img {
+  width: 54px;
+  height: 36px;
+  vertical-align: middle;
+}
+
+.shop_pay .wuliu ul li span:first-child {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin: 5px 10px;
+  vertical-align: middle;
+  background: transparent url('~@/assets/images/kuaidi.png') no-repeat scroll 0 0;
+}
+
+.shop_pay .zhifu ul li span:first-child {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin: 5px 10px;
+  vertical-align: middle;
+}
+
+.shop_pay .comfirmmsg {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.shop_pay .comfirmmsg h4 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.shop_pay .comfirmmsg .cfminfo {
+  width: 100%;
+}
+
+.shop_pay .comfirmmsg .cfminfo .title {
+  display: flex;
+}
+
+.shop_pay .comfirmmsg .cfminfo .title li {
+  flex: 1;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #F5F5F5;
+}
+
+.shop_pay .comfirmmsg .cfminfo .title li:first-child {
+  flex: 4;
+}
+
+.shop_pay .comfirmmsg .cfminfo .title li:nth-child(3) {
+  flex: 3;
+}
+
+.shop_pay .comfirmmsg .cfminfo .phmsg {
+  display: flex;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  border: 1px solid #cccccc;
+}
+
+.shop_pay .comfirmmsg .cfminfo .phmsg:nth-child(n+3) {
+  border-top: none;
+}
+
+.shop_pay .comfirmmsg .cfminfo .phmsg li {
+  flex: 1;
+}
+
+.shop_pay .comfirmmsg .cfminfo .phmsg li:first-child {
+  flex: 4;
+  font-size: 14px;
+}
+
+.shop_pay .comfirmmsg .cfminfo .phmsg li:nth-child(3) {
+  flex: 3;
+}
+
+
+.shop_pay .comfirmmsg .cfminfo .phmsg img {
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+}
+
+.shop_pay .liuyan {
+  height: 105px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+}
+
+.shop_pay .liuyan .lf {
+  float: left;
+  font-weight: bold;
+}
+
+.shop_pay .liuyan .lf textarea {
+  width: 500px;
+  height: 100px;
+  vertical-align: middle;
+  resize: none;
+}
+
+.shop_pay .liuyan .rt {
+  float: right;
+}
+
+.shop_pay .liuyan .rt p span {
+  display: inline-block;
+  text-align: right;
+  font-weight: bold;
+  margin: 10px 5px 0 0;
+  width: 100px;
+}
+
+.shop_pay .liuyan .rt p select {
+  width: 200px;
+  height: 25px;
+}
+
+.shop_pay .paybm {
+  width: 100%;
+}
+
+.shop_pay .paybm .pbinfo {
+  float: right;
+  text-align: right;
+}
+
+.shop_pay .paybm .pbinfo > p {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.shop_pay .paybm .pbct {
+  width: 700px;
+  height: 150px;
+  margin-top: 20px;
+  border: 2px solid orangered;
+}
+
+.shop_pay .paybm .pbinfo > p {
+  font-size: 14px;
+}
+
+.shop_pay .paybm .pbinfo > p > span:first-child{
+  font-weight: bold;
+}
+
+.shop_pay .paybm .pbinfo > p > span:last-child {
+  color: #FF4200;
+}
+
+.shop_pay .paybm .pbct > p {
+  padding: 10px;
+}
+
+.shop_pay .paybm .pbct > p:first-child i {
+  font-style: normal;
+  font-size: 26px;
+}
+
+.shop_pay .paybm .pbct > p:first-child span {
+  font-weight: bold;
+  color: #FF4200;
+  font-size: 26px;
+}
+
+.shop_pay .paybm .pbct > p:nth-child(n+2) span {
+  font-weight: 700;
+}
+
+.shop_pay .paybm .pbct > p:nth-child(n+2) {
+  font-size: 14px;
+}
+
+.shop_pay .paybm .pbinfo > button {
+  width: 120px;
+  height: 36px;
+  background-color: #f50;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px 0 30px;
+}

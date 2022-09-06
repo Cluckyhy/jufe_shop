@@ -1,0 +1,70 @@
+.shopinfobm {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.shopinfobm .bm_lf {
+  float: left;
+  width: 215px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+}
+
+.shopinfobm .bm_lf h3 {
+  height: 22px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  background-color: #f7f7f7;
+  font-weight: 400;
+  text-align: center;
+}
+
+.shopinfobm .bm_lf ul {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.shopinfobm .bm_lf ul li {
+  flex: 1;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.shopinfobm .bm_lf ul li p:last-child{
+  color: #E4393C;
+  font-weight: 600;
+}
+
+.shopinfobm .bm_lf ul li img {
+  width: 194px;
+  height: 194px;
+}
+
+.shopinfobm .bm_rt{
+  float: left;
+  width: 955px;
+  margin-left: 30px;
+}
+
+.shopinfobm .bm_rt .isActive{
+  border-top: 2px solid #E4393C;
+  color: #E4393C;
+}
+
+.shopinfobm .bm_rt>ul{
+  display: flex;
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #F5F5F5;
+}
+
+.shopinfobm .bm_rt>ul>li{
+  flex: 1;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}

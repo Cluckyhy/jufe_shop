@@ -1,0 +1,33 @@
+.footer{
+  width: 1200px;
+  height: 90px;
+  margin: 0 auto;
+  border-top: 2px solid #FF5400;
+}
+
+.footer .footer-hd{
+  margin-top: 5px;
+  padding: 8px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.footer .footer-hd a{
+  display: inline-block;
+  font-size: 14px;
+  color: #6c6c6c;
+  margin: 0 4px;
+}
+
+.footer .footer-hd b{
+  display: inline-block;
+  width: 4px;
+  height: 15px;
+  color: #dddddd;
+  font-weight: 400;
+  margin: 0 4px;
+}
+
+.footer .footer-bd{
+  font-size: 14px;
+  margin-top: 10px;
+}

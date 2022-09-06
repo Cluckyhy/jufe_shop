@@ -1,0 +1,143 @@
+.login_banner {
+  position: relative;
+  height: 474px;
+  margin: -20px 0 20px 0;
+  background-color: #FD7A72;
+}
+
+.login_banner .login_bg {
+  width: 1200px;
+  margin: 0 260px 0;
+}
+
+.login_banner .login_box {
+  position: absolute;
+  width: 360px;
+  height: 430px;
+  top: 20px;
+  left: 917px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+.login_banner .login_box>h3{
+  text-align: center;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.login_banner .login_box .login_form{
+  width: 320px;
+  height: 92px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+}
+
+.login_box .login_form .username{
+  width: 320px;
+  height: 42px;
+  margin-bottom: 5px;
+}
+
+.login_form .username span{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.login_box .login_form .username input{
+  width: 280px;
+  height: 42px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.login_box .login_form .userpass{
+  width: 320px;
+  height: 42px;
+  margin-bottom: 5px;
+}
+
+.login_box .login_form .userpass input{
+  width: 280px;
+  height: 42px;
+  border: none;
+  box-sizing: border-box;
+}
+
+
+.login_form .userpass span{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.login_box .login_link{
+  width: 320px;
+  height: 20px;
+  margin: 20px auto;
+}
+
+.login_box .login_link input{
+  vertical-align: middle;
+}
+
+
+.login_box .login_link a{
+  float: right;
+}
+
+.login_box .dl{
+  width: 320px;
+  height: 38px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #0E90D2;
+}
+
+.login_box .dl span{
+  color: white;
+  line-height: 38px;
+  font-size: 16px;
+}
+
+.login_box .partner{
+  margin: 20px auto;
+}
+
+.login_box .partner>h3{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.login_box .partner .lg_grop{
+  width: 320px;
+  height: 42px;
+  line-height: 42px;
+}
+
+.partner .lg_grop ul{
+  display: flex;
+}
+
+.partner .lg_grop ul li{
+  flex: 1;
+  cursor: pointer;
+}
+
+.partner .lg_grop ul li span:first-child{
+  font-size: 23px;
+  color: #0E90D2;
+}
+
+.partner .lg_grop ul li span:last-child{
+  font-size: 14px;
+  margin-left: 8px;
+}

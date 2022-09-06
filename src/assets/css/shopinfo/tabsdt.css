@@ -1,0 +1,54 @@
+.tabs_dt{
+  width: 955px;
+  margin-top: 10px;
+}
+
+.tabs_dt .dt_P{
+  height: 156px;
+  margin-top: 30px;
+  padding: 10px 10px;
+}
+
+.tabs_dt .dt_P h4{
+  width: 80px;
+  height: 35px;
+  margin: 0 10px 0 0;
+  padding-right: 10px;
+  border-bottom: 1px solid #F70;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tabs_dt .dt_P>ul{
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+}
+
+.tabs_dt .dt_P ul>li{
+  width: 300px;
+  color: #666666;
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+.tabs_dt .dt_D{
+  padding: 10px 10px;
+}
+
+.tabs_dt .dt_D h4{
+  width: 65px;
+  height: 35px;
+  margin: 0 10px 0 0;
+  border-bottom: 1px solid #F70;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tabs_dt .dt_D ul{
+  margin-top: 20px;
+}
+
+.tabs_dt .dt_D ul li>img{
+  width: 955px;
+}

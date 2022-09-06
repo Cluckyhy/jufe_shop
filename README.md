@@ -1,4 +1,4 @@
-# jufe_shop
+i# jufe_shop
 
 ## Project setup
 ```

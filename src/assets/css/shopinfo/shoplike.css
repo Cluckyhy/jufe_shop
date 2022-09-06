@@ -1,0 +1,62 @@
+.tabs_like {
+  width: 955px;
+}
+
+.tabs_like .like_info {
+  width: 200px;
+  height: 300px;
+  margin-top: 40px;
+}
+
+.tabs_like .like_info > ul {
+  display: flex;
+}
+
+.tabs_like .like_info > ul > li {
+  display: none;
+  width: 200px;
+  font-size: 13px;
+}
+
+.like_info > ul > .splk_show {
+  display: block !important;
+}
+
+.tabs_like .like_info > ul > li span {
+  margin-left: 5px;
+}
+
+.tabs_like .like_info > ul > li span:nth-of-type(1) {
+  margin-left: 0;
+}
+
+.tabs_like .like_info img {
+  width: 200px;
+  height: 200px;
+}
+
+.tabs_like .fenye {
+  margin-right: 3px;
+}
+
+.tabs_like .fenye ul {
+  float: right;
+}
+
+.tabs_like .fenye ul li {
+  float: left;
+  height: 35px;
+  width: 40px;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #cccccc;
+}
+
+.tabs_like .fenye .likeActive {
+  color: white;
+  background-color: #0E90D2;
+}

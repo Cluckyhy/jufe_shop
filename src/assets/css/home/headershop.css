@@ -1,0 +1,104 @@
+.shop_top {
+  width: 1200px;
+  height: 140px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.shop_top .box1 {
+  width: 100%;
+  height: 35px;
+}
+
+.shop_top .message_left {
+  float: left;
+}
+
+.shop_top .message_left li {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.shop_top .message_left li:nth-child(n+2){
+  color: red;
+  cursor: pointer;
+}
+
+.shop_top .message_left li:nth-child(2){
+  color: green;
+  font-weight: bold;
+}
+
+.shop_top .message_right {
+  float: right;
+}
+
+.shop_top .message_right li {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.shop_top .message_right li:nth-child(2n+1){
+  color: red;
+}
+.shop_top .message_right li:nth-child(n) span{
+  padding-right: 3px;
+}
+
+.shop_top .message_right li:nth-child(2n+1) .icon-gouwucheman{
+  color: black;
+}
+
+.shop_top .box2 {
+  width: 1200px;
+}
+
+.shop_top .box2 .search {
+  padding: 0 100px;
+  height: 90px;
+}
+
+.shop_top .box2 .search span{
+  display: inline-block;
+  width: 580px;
+  border: 2px solid red;
+  margin-left: 80px;
+}
+
+.shop_top .box2 img {
+  width: 200px;
+  height: 90px;
+  vertical-align: middle;
+}
+
+.shop_top .box2 .ipt1 {
+  width: 450px;
+  height: 46px;
+  line-height: 90px;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.shop_top .box2 .btn {
+  display: inline-block;
+  width: 125px;
+  height: 47px;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  background-color: #f84132;
+}

@@ -1,0 +1,95 @@
+.main_shop {
+  position: relative;
+  width: 1200px;
+  height: 520px;
+  margin: 0 auto;
+}
+
+.hdtop{
+  position: relative;
+}
+
+.hdtop .headerbm{
+  position: absolute;
+  left: 0;
+  top: 45px;
+  width: 100%;
+  height: 5px;
+  background-color: #CC1D36;
+}
+
+.nav-cont {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-cont ul {
+  display: flex;
+  width: 60%;
+  height: 45px;
+}
+
+.nav-cont ul li:nth-child(n+2) {
+  flex: 1;
+  text-align: center;
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.nav-cont ul li:nth-child(n+2) span {
+  margin-left: 20px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.nav-cont ul li:first-child {
+  width: 200px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  background-color: rgb(210, 54, 76);
+}
+
+.nav-cont ul li:first-child span {
+  color: white;
+}
+
+.nav-extra {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 45px;
+}
+
+.nav-extra .ni {
+  position: absolute;
+  left: -17px;
+  bottom: -2px;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+}
+
+.nav-extra .ni>span{
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.nav-extra > span {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  right: 0;
+  top: 0;
+  color: #FCFF01;
+  background-color: rgb(245, 71, 93);
+  line-height: 45px;
+  cursor: pointer;
+  text-align: center;
+}

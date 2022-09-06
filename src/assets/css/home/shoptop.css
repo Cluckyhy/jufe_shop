@@ -1,0 +1,78 @@
+.shoptop {
+  width: 1200px;
+  height: 150px;
+  margin: 10px auto;
+}
+
+.shoptop ul {
+  width: 100%;
+  text-align: left;
+  display: flex;
+}
+
+.shoptop ul li {
+  flex: 1;
+  height: 145px;
+}
+
+.shoptop ul li:first-child {
+  background-image: url("~@/assets/images/clockbg.png");
+}
+
+.shoptop ul li:first-child .msg {
+  color: white;
+  margin: 35px 30px 30px 35px;
+  font-size: 25px;
+}
+
+.shoptop ul li:first-child img {
+  margin: 10px 30px 30px 0;
+}
+
+.shoptop ul li:nth-child(n+2) .msg {
+  margin-top: 30px;
+  width: 100px;
+  height: 88px;
+  margin-left: 20px;
+  border-left: 1px solid #cccccc;
+}
+
+.shoptop ul li:nth-child(2) .msg:first-child {
+  margin-left: 1px;
+  border-left: none;
+}
+
+.shoptop ul li:nth-child(n+2) .title {
+  font-weight: bold;
+}
+
+.shoptop ul li:nth-child(n+2) .msg span {
+  margin-left: 15px;
+}
+
+.shoptop ul li .msg {
+  float: left;
+}
+
+.shoptop ul li .img {
+  float: right;
+}
+
+.shoptop ul li img {
+  width: 120px;
+  height: 120px;
+  margin-top: 15px;
+}
+
+.shoptop ul li:nth-child(n+2) img {
+  width: 120px;
+  height: 120px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+
+.shoptop ul li:nth-child(n+2) img:hover {
+  transform: translateX(-30px);
+  transition: all .2s linear;
+}
